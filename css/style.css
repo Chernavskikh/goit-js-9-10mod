@@ -1,0 +1,98 @@
+#carousel{
+    width:780px;
+    overflow:auto;
+    margin: 150px 290px;
+}
+.carousel-hider {
+    width: 600px;
+    border: 1px solid grey;
+    overflow: hidden;
+    float: left;
+}
+ 
+.carousel-list {    
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+    position: relative;
+}
+ 
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+ 
+.carousel-element img {
+    max-width: 100px;
+}
+ 
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    display: block;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 50px;
+}
+ 
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+ 
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+ 
+.carousel-arrow-right {
+    margin-left: 25px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ font-size: 17px;
+    line-height: 1.5;
+  }
+
+h2{
+  text-align:center;
+}
+
+img{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  
+ul{
+    padding-top: 20px;
+    padding-left: 50px; 
+  }
+
+.main-block{
+    width: 512px;
+    height: 755px;
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;  
+    padding: 50px 55px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+   
+}
+ .block1,.block2,.block3{
+  border-bottom: 2px solid gray;
+    padding:20px 15px;
+  }
+.block4{
+  padding: 20px 15px;
+}
+ .vk{
+  padding-top: 40px;
+}
